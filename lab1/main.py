@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 import random
 
-
 class MemorySimulator:
     def __init__(self):
         self.root = tk.Tk()
@@ -45,12 +44,6 @@ class MemorySimulator:
 
         self.label_label = tk.Label(self.root, text="Label:")
         self.label_label.grid(row=1, column=2, padx=10, pady=10)
-        self.frame_left = tk.Frame(self.root)
-        self.frame_left.grid(row=0, column=0, padx=10, pady=10)
-
-        # Использование ttk.Button вместо tk.Button
-        self.search_button = tk.Button(self.frame_left, text="Search", command=self.search_cell)
-        self.search_button.grid(row=0, column=2, padx=10, pady=10)
 
         self.label_var = tk.StringVar()
         self.label_entry = tk.Entry(self.root, textvariable=self.label_var)

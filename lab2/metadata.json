@@ -2,85 +2,81 @@
   "elements": [
     {
       "type": "form",
-      "width": 500,
-      "height": 400
+      "width": 450,
+      "height": 350
     },
     {
       "type": "label",
-      "text": "Label 1",
+      "text": "Name:",
       "x": 50,
       "y": 50,
       "width": 100,
       "height": 30
     },
     {
+      "type": "entry",
+      "x": 200,
+      "y": 50,
+      "width": 200,
+      "height": 30
+    },
+    {
       "type": "label",
-      "text": "Label 2",
+      "text": "Email:",
+      "x": 50,
+      "y": 100,
+      "width": 100,
+      "height": 30
+    },
+    {
+      "type": "entry",
       "x": 200,
       "y": 100,
-      "width": 120,
+      "width": 200,
       "height": 30
-    },
-    {
-      "type": "button",
-      "text": "Button 1",
-      "x": 100,
-      "y": 200,
-      "width": 80,
-      "height": 40
-    },
-    {
-      "type": "button",
-      "text": "Button 2",
-      "x": 250,
-      "y": 250,
-      "width": 100,
-      "height": 40
     },
     {
       "type": "label",
-      "text": "Label 3",
-      "x": 300,
-      "y": 50,
-      "width": 80,
-      "height": 30
-    },
-    {
-      "type": "button",
-      "text": "Button 3",
-      "x": 150,
-      "y": 300,
-      "width": 120,
-      "height": 40
-    },
-    {
-      "type": "label",
-      "text": "Label 4",
-      "x": 400,
-      "y": 200,
-      "width": 100,
-      "height": 30
-    },
-    {
-      "type": "button",
-      "text": "Button 4",
+      "text": "Password:",
       "x": 50,
       "y": 150,
-      "width": 80,
-      "height": 40
+      "width": 100,
+      "height": 30
     },
     {
-      "type": "label",
-      "text": "Label 5",
-      "x": 150,
+      "type": "entry",
+      "x": 200,
       "y": 150,
-      "width": 80,
+      "width": 200,
       "height": 30
     },
     {
       "type": "button",
-      "text": "Button 5",
-      "x": 300,
+      "text": "Submit",
+      "x": 250,
+      "y": 200,
+      "width": 100,
+      "height": 40
+    },
+    {
+      "type": "label",
+      "text": "Address:",
+      "x": 50,
+      "y": 250,
+      "width": 100,
+      "height": 30
+    },
+    {
+      "type": "entry",
+      "x": 200,
+      "y": 250,
+      "width": 200,
+      "height": 30
+    },
+    {
+      "type": "button",
+      "text": "Cancel",
+      "x": 250,
       "y": 300,
       "width": 100,
       "height": 40
